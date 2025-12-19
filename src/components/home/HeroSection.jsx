@@ -12,7 +12,7 @@ const HeroSection = ({ about, roles, currentRole }) => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            {about?.title?.split(" ")[0] || "Suyash"}
+            {about?.title|| "Suyash"}
           </span>
         </h1>
 
